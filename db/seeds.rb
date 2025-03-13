@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+#
+Product.delete_all
+
+Product.create!(title: "nuclear bomb", description: "kaboom", image_url: " https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Atom_Bomb_Nuclear_Explosion.jpg/640px-Atom_Bomb_Nuclear_Explosion.jpg", price: "8 Hyrulean Rupees")

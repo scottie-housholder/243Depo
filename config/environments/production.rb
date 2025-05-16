@@ -93,7 +93,7 @@ Rails.application.configure do
 
     # Configure emails
     Rails.application.configure do
-        config.action_mailer.delivery_method = :smpt
+        config.action_mailer.delivery_method = :sendmail
 
         config.action_mailer.smtp_settings = {
             address:        "smpt.gmail.com",
